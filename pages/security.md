@@ -113,11 +113,11 @@ spring:
       client:
         provider:
           oidc:
-            issuer-uri: http://localhost:9080/auth/realms/jhipster
+            issuer-uri: http://localhost:9080/realms/jhipster
             # localhost will be bound to the guest (container), not the host
             # to run Keycloak as a daemon, i.e., npm run docker:keycloak:up, /etc/hosts must be edited
             # and the issuer-uri should be as follows:
-            # issuer-uri: http://keycloak:9080/auth/realms/jhipster
+            # issuer-uri: http://keycloak:9080/realms/jhipster
         registration:
           oidc:
             client-id: web_app
